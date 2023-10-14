@@ -1,0 +1,93 @@
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+   
+  }
+  
+  .App-header {
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(187, 170, 170);
+  }
+  
+  nav {
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  nav ul li:hover {
+    background-color: #7c878e;
+    transform: scale(1.1);
+  }
+  
+  .section {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #7985a3;
+    border-radius: 5px;
+    background-color: rgb(200, 199, 214);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+  }
+  
+  .section:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.03);
+  }
+  
+  .project {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    background-color: #ecf0f1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+  }
+  
+  .project:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.03);
+  }
+  
+  .home {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    background: rgb(200, 199, 214);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+  }
+  
+  .home:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.03);
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  body{
+    
+    background-image: url("./background.png");
+  }
